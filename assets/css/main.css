@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Sofia";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: local("Sofia Light"), url(/fonts/Sofia/SofiaLight.ttf) format("ttf");
+  }
+  @font-face {
+    font-family: "Sofia";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local("Sofia Semibold"),
+      url(/fonts/Sofia/SofiaMedium.ttf) format("ttf");
+  }
+  html {
+    text-rendering: geometricPrecision;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 300;
+  }
+
+  /* Default style for headings. */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 700;
+  }
+  h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
