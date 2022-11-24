@@ -1,3 +1,5 @@
 <template>
-  <div class="bg-red-500">Hello ASAM</div>
+  <div>
+    <HeaderComponent />
+  </div>
 </template>

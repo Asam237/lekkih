@@ -11,12 +11,12 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      sans: ["Poppins", ...defaultTheme.fontFamily.sans],
+      sans: ["Sofia", ...defaultTheme.fontFamily.sans],
     },
     extend: {
       colors: {
         primary: {
-          DEFAULT: "#0e3758",
+          DEFAULT: "#029100",
         },
         secondary: {
           DEFAULT: "#1E75BA",
@@ -34,14 +34,14 @@ module.exports = {
     function ({ addComponents }) {
       addComponents({
         ".container": {
-          maxWidth: "80vw",
+          maxWidth: "95vw",
           marginLeft: "auto",
           marginRight: "auto",
           "@screen sm": {
-            maxWidth: "75vw",
+            maxWidth: "90vw",
           },
           "@screen xl": {
-            maxWidth: "1080px",
+            maxWidth: "1280px",
           },
         },
       });
