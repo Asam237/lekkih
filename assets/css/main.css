@@ -18,6 +18,22 @@
     src: local("Sofia Semibold"),
       url(/fonts/Sofia/SofiaMedium.ttf) format("ttf");
   }
+  @font-face {
+    font-family: "Plantin";
+    font-style: bold;
+    font-weight: 700;
+    font-display: swap;
+    src: local("Plantin Bold"),
+      url(/fonts/Plantin/PlantinSemiBold.otf) format("otf");
+  }
+  @font-face {
+    font-family: "Plantin";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: local("Plantin Light"),
+      url(/fonts/Plantin/PlantinLight.otf) format("otf");
+  }
   html {
     text-rendering: geometricPrecision;
     -webkit-font-smoothing: antialiased;
@@ -33,10 +49,12 @@
   h5,
   h6 {
     font-weight: 700;
+    font-family: "Plantin Bold";
   }
   h1 {
     font-size: 1.5rem;
     line-height: 2rem;
+    font-family: "Plantin Bold";
   }
   button {
     background: #029100;

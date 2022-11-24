@@ -41,6 +41,20 @@ export default defineNuxtConfig({
                 as: 'font',
                 crossOrigin: 'anonymous',
             },
+            {
+                rel: 'preload prefetch',
+                type: 'font/otf',
+                href: '/fonts/Sofia/PlantinSemibold.otf',
+                as: 'font',
+                crossOrigin: 'anonymous',
+            },
+            {
+                rel: 'preload prefetch',
+                type: 'font/otf',
+                href: '/fonts/Sofia/PlantinLight.otf',
+                as: 'font',
+                crossOrigin: 'anonymous',
+            },
         ],
     },
 
