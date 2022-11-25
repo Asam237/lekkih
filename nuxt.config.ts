@@ -68,7 +68,11 @@ export default defineNuxtConfig({
     buildModules: [
         // https://go.nuxtjs.dev/typescript
         '@nuxt/postcss8',
+        'nuxt-gsap-module'
     ],
+    gsap: {
+        /* Module Options */
+    },
 
     // Modules: https://go.nuxtjs.dev/config-modules
     modules: [],

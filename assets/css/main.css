@@ -45,19 +45,17 @@
   h1,
   h2,
   h3,
-  h4,
-  h5,
-  h6 {
+  h4 {
     font-weight: 700;
     font-family: "Plantin Bold";
   }
   h1 {
     font-size: 1.5rem;
-    line-height: 2rem;
+    line-height: 72px;
     font-family: "Plantin Bold";
   }
   button {
-    background: #029100;
+    background: #ff5100;
     padding: 14px 20px;
     font-weight: 700;
     border-radius: 9999px;

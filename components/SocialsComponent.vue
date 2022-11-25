@@ -1,5 +1,5 @@
 <template>
-    <div class="py-24 bg-primary">
+    <div class="py-24 bg-[#fdc300]">
         <div class="container">
             <div>
                 <h1 class="font-[400] text-[34px] md:text-[68px] text-[#1f1f1f] text-center"

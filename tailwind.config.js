@@ -16,7 +16,7 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: "#029100",
+          DEFAULT: "#ff5100",
         },
         secondary: {
           DEFAULT: "#1E75BA",
@@ -41,7 +41,7 @@ module.exports = {
             maxWidth: "90vw",
           },
           "@screen xl": {
-            maxWidth: "1280px",
+            maxWidth: "1750px",
           },
         },
       });

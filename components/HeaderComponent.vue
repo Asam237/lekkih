@@ -3,7 +3,8 @@
         <div class="container">
             <div class="flex items-center flex-row justify-between">
                 <div class="logo">
-                    <h4 class="text-xl md:text-3xl text-primary">Lekkih</h4>
+                    <p class="text-xl md:text-3xl font-bold text-primary">mPharma
+                    </p>
                 </div>
                 <div class="flex flex-col md:flex-row md:items-center">
                     <ul class="hidden md:flex flex-col md:flex-row md:items-center mt-4 md:mt-0">
