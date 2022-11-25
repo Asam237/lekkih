@@ -16,7 +16,7 @@
                         </li>
                     </ul>
                     <div class="md:ml-12">
-                        <h4 class="text-xl md:text-3xl text-primary">Lekkih</h4>
+                        <p class="text-xl font-semibold text-primary">mPharma</p>
                     </div>
                 </div>
             </div>

@@ -7,7 +7,11 @@
                 ipsum dolor sit,
                 amet consectetur
                 adipisicing elit. Laborum, ipsam.</h1>
-            <p class="text-[18px] md:text-[22px] leading-[30px] md:leading-[40px] md:w-1/2 mt-8 text-white">Lorem ipsum
+            <p v-gsap.from="{
+                opacity: 0,
+                x: -200,
+                duration: 1
+            }" class="text-[18px] md:text-[22px] leading-[30px] md:leading-[40px] md:w-1/2 mt-8 text-white">Lorem ipsum
                 dolor sit amet
                 consectetur
                 adipisicing elit. Possimus

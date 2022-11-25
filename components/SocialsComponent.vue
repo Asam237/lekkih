@@ -3,7 +3,7 @@
         <div class="container">
             <div>
                 <h1 class="font-[400] text-[34px] md:text-[68px] text-[#1f1f1f] text-center"
-                    style="font-family: 'Plantin Bold';">Lekkih dans les médias</h1>
+                    style="font-family: 'Plantin Bold';">mPharma dans les médias</h1>
                 <div class="grid gap-12 grid-cols-1 md:grid-cols-2 mt-14 md:mt-28">
                     <div v-for="(item, index) in cards" :key="index"
                         class="bg-white shadow-sm p-10 md:p-20 flex flex-col items-center rounded-md">
