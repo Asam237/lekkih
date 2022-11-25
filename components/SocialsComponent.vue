@@ -3,7 +3,7 @@
         <div class="container">
             <div>
                 <h1 class="font-[400] text-[34px] md:text-[68px] text-[#1f1f1f] text-center leading-10 md:leading-[70px]"
-                    style="font-family: 'Plantin Bold';">mPharma dans les médias</h1>
+                    style="font-family: 'Plantin Bold';">zPharma dans les médias</h1>
                 <div class="md:w-3/4 container mx-auto">
                     <div class="grid gap-12 grid-cols-1 md:grid-cols-2 mt-14 md:mt-28 content-center">
                         <div v-for="(item, index) in cards" :key="index"
@@ -33,22 +33,22 @@ export default {
             cards: [
                 {
                     title: "FINANCIAL TIMES",
-                    content: "La startup Lekkih de Gregory Rockson vise à réparer l'approvisionnement en médicaments en Afrique",
+                    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, veritatis tenetur.",
                     footer: "Temps financiers"
                 },
                 {
                     title: "FaSTC@MPANY",
-                    content: "Les entreprises les plus innovantes au monde lauréates 2018 par secteur",
+                    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, veritatis tenetur.",
                     footer: "Entreprise rapide"
                 },
                 {
                     title: "Skoll",
-                    content: "Rencontrez les lauréats Skoll 2019 pour l'entrepreneuriat social",
+                    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, veritatis tenetur.",
                     footer: "Récompenses Skoll"
                 },
                 {
                     title: "QUARTZ",
-                    content: "Une startup perturbant le commerce des médicaments sur ordonnance en Afrique reçoit un soutien majeur de la Silicon Valley",
+                    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, veritatis tenetur.",
                     footer: "Quartz"
                 },
             ]

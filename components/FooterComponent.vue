@@ -10,7 +10,8 @@
                         patients, la bonne santé des pharmaciens et la <br />
                         bonne santé de notre industrie.
                     </p>
-                    <p class="mt-4 text-center md:text-start font-bold text-base md:text-xl"><span>— </span>Faites-en partie.</p>
+                    <p class="mt-4 text-center md:text-start font-bold text-base md:text-xl"><span>— </span>Faites-en
+                        partie.</p>
                 </div>
                 <div class="flex flex-col md:flex-row md:items-center">
                     <ul class="hidden md:flex flex-col md:flex-row md:items-center mt-4 md:mt-0">
@@ -19,7 +20,7 @@
                         </li>
                     </ul>
                     <div class="md:ml-12 my-4 md:my-0 md:mt-0">
-                        <p class="text-xl font-semibold text-primary text-center">mPharma</p>
+                        <p class="text-xl font-semibold text-primary text-center">zPharma</p>
                     </div>
                 </div>
             </div>
