@@ -1,17 +1,14 @@
 <template>
     <div
-        class="bg-no-repeat object-cover h-[70vh] md:h-[90vh] w-full bg-center bg-cover bg-[url('/assets/imgs/doctor.jpg')]">
+        class=" bg-no-repeat object-cover h-[70vh] md:h-[90vh] w-full bg-center bg-cover bg-[url('/assets/imgs/doctor.jpg')]">
         <div
-            class="flex md:justify-end  justify-center text-center md:text-start h-[70vh] flex-col pt-[4rem] container">
+            class="fade flex md:justify-end  justify-center text-center md:text-start h-[80vh] flex-col pt-[4rem] container">
             <h1 class="text-[34px] md:text-[68px] font-[400] text-white leading-[35px] md:leading-[72px] md:w-3/4">Lorem
                 ipsum dolor sit,
                 amet consectetur
                 adipisicing elit. Laborum, ipsam.</h1>
-            <p v-gsap.from="{
-                opacity: 0,
-                x: -200,
-                duration: 1
-            }" class="text-[18px] md:text-[22px] leading-[30px] md:leading-[40px] md:w-1/2 mt-8 text-white">Lorem ipsum
+            <p class="fade text-[18px] md:text-[22px] leading-[30px] md:leading-[40px] md:w-1/2 mt-8 text-white">Lorem
+                ipsum
                 dolor sit amet
                 consectetur
                 adipisicing elit. Possimus
@@ -20,3 +17,19 @@
         </div>
     </div>
 </template>
+
+<script>
+import gsap from 'gsap';
+export default {
+    mounted() {
+        gsap.from('.fade', {
+            opacity: 0,
+            duration: 2,
+        });
+    },
+
+    methods: {
+
+    }
+}
+</script>
