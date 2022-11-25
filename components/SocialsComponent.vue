@@ -12,7 +12,7 @@
                                 {{
                                         item.title
                                 }}</h4>
-                            <p class="text-center text-[17px] leading-[26px] md:text-[21px] text-[#1f1f1f] my-6 md:my-12"
+                            <p class="text-center text-[15px] leading-[24px] md:leading-[34px] md:text-[20px] text-[#1f1f1f] my-6 md:my-12"
                                 style="font-family: 'Plantin Light';">{{
                                         item.content
                                 }}</p>

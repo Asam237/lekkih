@@ -6,7 +6,7 @@
             <h1 class="text-[34px] md:text-[68px] font-[400] text-white leading-[35px] md:leading-[72px] md:w-1/2">
                 De nombreux pays ne sont pas préparés.
             </h1>
-            <h4 class="fade text-[18px] md:text-[22px] leading-[30px] md:leading-[40px] md:w-3/5 mt-8 text-white font-normal">
+            <h4 class="fade text-[15px] md:text-[20px] leading-[24px] md:leading-[34px] md:w-3/5 mt-8 text-white font-normal">
                 Après des décennies de priorité accordée au paludisme et au VIH, ce sont les nouveaux tueurs - comme le
                 cancer, le diabète et l'hypertension - qui font peser le plus lourd fardeau sur les systèmes de santé
                 africains.
